@@ -1,0 +1,18 @@
+/* This is a function that if the screen is less than 1200 px,
+    the desktop navigation will disappear and the hamburger
+    will show up.
+*/
+@media screen and (max-width: 1200px) {
+    
+    /* target <nav id="desktop-nav"> */
+    #desktop-nav{
+        display: none;
+    }
+
+    /* target <nav id="hamburger-nav">  */
+    #hamburger-nav{
+        display: flex;
+    }
+
+
+}
