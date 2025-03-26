@@ -39,6 +39,12 @@
     section, .section-container{
         height: fit-content;
     }
+    .section__text{
+        margin-top: 2rem;
+        align-self: center;
+        text-align: center
+    }
+
     section{
         margin: 0 5%;
     }
