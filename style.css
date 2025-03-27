@@ -7,8 +7,7 @@
 
 body{
     font-family: "Outfit", sans-serif ; /* Font */
-    color: white;
-    background-image: url('assets/pexels-instawally-176851\ 10.19.29\ PM.jpg');
+    background-image: url('assets/voxels-republic-eUBp69MTaNU-unsplash.jpg');
     background-size: cover;         /* Ensures the image covers the entire element */
     background-position: center;    /* Centers the image */
     background-repeat: no-repeat;   /* Prevents the image from repeating */
@@ -32,7 +31,7 @@ a,
 /* class logo from html (my name)*/
 .logo {
     font-size: 2rem ;
-    color: rgb(107, 170, 195);
+    color: lightblue;
 }
 
 /* Dont make any changes to the cursor when we hover over the logo */
@@ -324,13 +323,14 @@ section{
     padding: 1rem;
     flex: 1;
     border-radius: 2rem;
+    background-color: rgb(34, 34, 34);
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
 }
 
 .details-container:hover{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(65, 64, 64);
 }
 
 .section-container{
